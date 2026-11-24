@@ -573,3 +573,40 @@ body {
         animation-iteration-count: 1 !important;
     }
 }
+
+
+/* Fixed Napoleon coat buttons */
+.buttons {
+    width: 2.4%;
+    height: 2.4%;
+    top: 49%;
+    left: 54%;
+    border-radius: 50%;
+    background: #f2cf70;
+    box-shadow:
+        0 4vmin #f2cf70,
+        0 8vmin #f2cf70,
+        0 12vmin #f2cf70;
+}
+
+/* Fixed hat gap */
+.hat-bottom {
+    width: 36%;
+    height: 7%;
+    top: 13.5%;
+}
+
+/* Shortened neck */
+.head::before {
+    width: 34%;
+    height: 55%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #9a6240;
+    border-radius: 0 0 100% 100% / 30%;
+}
+.buttons {
+    display: none;
+}
+
